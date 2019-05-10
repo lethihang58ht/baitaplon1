@@ -1,0 +1,293 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header_top{
+  background-color:#0B0B3B;
+}
+.content ul{
+  list-style-type: none;
+
+  text-align: center;
+  margin: 0;
+}
+.content ul li{
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  margin-left: -5px;
+}
+#menu_nav{
+margin: 3px 3px;
+}
+#menu_nav a{
+  text-decoration:none;
+  color: white;
+}
+.content li a{
+  text-decoration:none;
+  color: white;
+}
+.menu_bar ul{
+  list-style-type: none;
+  background: white;
+  text-align: center;
+  margin: 0;
+  height: 100px;
+}
+.menu_bar ul li{
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  margin-left: -5px;
+  margin: 5px 5px;
+  font-size: 20px;
+ }
+ .clearfix:after {
+     display:block;
+     clear:both;
+ }
+ .wrapper {
+     width:100%;
+     box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+
+ }
+
+ /*----- Phần menu -----*/
+ .menu {
+     width:100%;
+     margin-top: 115px;
+     background:#0080FF;
+     height: 50px;
+ }
+ .menu li {
+     margin:0px;
+     list-style:none;
+ }
+ .menu a {
+     transition:all linear 0.15s;
+     color:#919191;
+     text-decoration:none;
+ }
+ .menu li:hover > a, .menu .current-item > a {
+     text-decoration:none;
+     color:#0080FF;
+ }
+ .menu .arrow {
+     font-size:11px;
+     line-height:0%;
+ }
+ /*----- css cho phần menu cha -----*/
+ .menu > ul > li {
+     float:left;
+     display:inline-block;
+     position:relative;
+     font-size:19px;
+ }
+ .menu > ul > li > a {
+     padding:10px 10px;
+     display:inline-block;
+     color:white;
+     font-weight: bold;
+     font-size: 14px;
+     font-family: "Roboto",Helvetica Neue,Helvetica,Arial,sans-serif;
+
+ }
+ .menu > ul > li:hover > a, .menu > ul > .current-item > a {
+     background:white;
+ }
+ /*----css cho menu con----*/
+ .menu li:hover .sub-menu {
+     z-index:1;
+     opacity:1;
+ }
+ .sub-menu {
+      height: 300px;
+     width:200%;
+     padding:5px 0px;
+     position:absolute;
+     top:100%;
+     z-index:-1;
+     opacity:0;
+     transition:opacity linear 0.15s;
+     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+     background:white;
+ }
+ .sub-menu li {
+     display:block;
+     font-size:16px;
+ }
+ .sub-menu li a {
+     padding:10px 30px;
+     display:block;
+ }
+ .sub-menu li a:hover, .sub-menu .current-item a {
+     background:white;
+ }
+ .row{
+   width: 50%;
+   height: 115px;
+   background: white;
+   float: left;
+ }
+#header-content{
+   width: 37.5%;
+   height: 115px;
+   background: white;
+  float: left;
+ }
+ #logo{
+   text-align: center;
+   margin-left: 200px;
+ }
+ .slideshow-container{
+  box-sizing:border-box;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 75%;
+  position: relative;
+  margin: auto;
+}
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+}
+.mySlides fade img{
+  width:100%;
+}
+/* Định dạng nội dung Caption */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+  display: none;
+  cursor: pointer;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+
+}
+/* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.bondiv{
+  width: 75%;
+  background: pink;
+  display: block;
+  margin-left: 168px;
+  margin-top: -15px;
+}
+.bondiv .anh img{
+  width:250px ;
+  height: 160px;
+}
+.div1{
+  width: 25%;
+    height:  160px;
+  background: white;
+  float: left;
+
+
+}
+.div2{
+  width: 25%;
+  height:  160px;
+  background: white;
+  float: left;
+}
+.div3{
+  width: 25%;
+height:  160px;
+  background: white;
+  float: left;
+}
+.div4{
+  width: 25%;
+  height:  160px;
+  background: white;
+  float: left;
+}
+.tongquan{
+  width: 78%;
+  background: white;
+  display: flex;
+  clear: both;
+  height: 300px;
+  margin-left: 150px;
+
+}
+#image{
+  margin-top: 60px;
+  float: left;
+  height: 200px;
+  margin-left: 20px;
+
+}
+.tongquan h3{
+  font-size: 24px;
+  font-weight: bold;
+  color: #08c;
+  margin-top: 10px;
+}
+#noidung{
+  line-height: 1.5;
+  font-size: 14.5px;
+  margin-left: 50px;
+  float: left;
+  height: 200px;
+  font-family: "Roboto",Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #4c4c4c;
+}
+.more_link a{
+  margin-top: 100px;
+}
+.badiv{
+  width: 75%;
+  background: pink;
+  clear: both;
+  margin-left: 168px;
+}
+.thongtin_thongbao{
+  width: 30.333%;
+  height:200px;
+  float: left;
+}
+.hoatdong{
+  width: 30.333%;
+  height:200px;
+  float: left;
+}
+.tuyensinh{
+  width: 30.333%;
+  height:200px;
+  float: right;
+}
