@@ -1,0 +1,257 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header_top{
+  background-color:#0B0B3B;
+}
+.content ul{
+  list-style-type: none;
+
+  text-align: center;
+  margin: 0;
+}
+.content ul li{
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  margin-left: -5px;
+}
+#menu_nav{
+margin: 3px 3px;
+}
+#menu_nav a{
+  text-decoration:none;
+  color: white;
+}
+.content li a{
+  text-decoration:none;
+  color: white;
+}
+.menu_bar ul{
+  list-style-type: none;
+  background: white;
+  text-align: center;
+  margin: 0;
+  height: 100px;
+}
+.menu_bar ul li{
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  margin-left: -5px;
+  margin: 5px 5px;
+  font-size: 20px;
+ }
+ .clearfix:after {
+     display:block;
+     clear:both;
+ }
+ .wrapper {
+     width:100%;
+     box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+
+ }
+
+ /*----- Phần menu -----*/
+ .menu {
+     width:100%;
+     margin-top: 115px;
+     background:#0080FF;
+     height: 50px;
+ }
+ .menu li {
+     margin:0px;
+     list-style:none;
+ }
+ .menu a {
+     transition:all linear 0.15s;
+     color:#919191;
+     text-decoration:none;
+ }
+ .menu li:hover > a, .menu .current-item > a {
+     text-decoration:none;
+     color:#0080FF;
+ }
+ .menu .arrow {
+     font-size:11px;
+     line-height:0%;
+ }
+ /*----- css cho phần menu cha -----*/
+ .menu > ul > li {
+     float:left;
+     display:inline-block;
+     position:relative;
+     font-size:19px;
+ }
+ .menu > ul > li > a {
+     padding:10px 10px;
+     display:inline-block;
+     color:white;
+     font-weight: bold;
+     font-size: 14px;
+     font-family: "Roboto",Helvetica Neue,Helvetica,Arial,sans-serif;
+
+ }
+ .menu > ul > li:hover > a, .menu > ul > .current-item > a {
+     background:white;
+ }
+ /*----css cho menu con----*/
+ .menu li:hover .sub-menu {
+     z-index:1;
+     opacity:1;
+ }
+ .sub-menu {
+      height: 300px;
+     width:200%;
+     padding:5px 0px;
+     position:absolute;
+     top:100%;
+     z-index:-1;
+     opacity:0;
+     transition:opacity linear 0.15s;
+     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+     background:white;
+ }
+ .sub-menu li {
+     display:block;
+     font-size:16px;
+ }
+ .sub-menu li a {
+     padding:10px 30px;
+     display:block;
+ }
+ .sub-menu li a:hover, .sub-menu .current-item a {
+     background:white;
+ }
+ .row{
+   width: 50%;
+   height: 115px;
+   background: white;
+   float: left;
+ }
+#header-content{
+   width: 37.5%;
+   height: 115px;
+   background: white;
+  float: left;
+ }
+ #logo{
+   text-align: center;
+   margin-left: 200px;
+ }
+.menu-nav{
+  width: 75%;
+  height: 40px;
+  background-color: #f5f5f5;
+  margin-left: 170px;
+  border-radius: 4px;
+}
+#nav a{
+  text-align: center;
+  padding-left: 20px;
+  font-size: 14px;
+  font-family: "Roboto",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.content_body{
+  width: 1030px;
+  height: 2030.16px;
+}
+.body{
+  width: 730px;
+  height: 2024.16px;
+}
+
+.title {
+  width: 730px;
+  height: 50px;
+  background-color: pink;
+  margin-left: 170px;
+  float: left;
+  justify-content: flex-end;
+}
+.title_second{
+  float: left;
+  background-color: red;
+  width: 280px;
+  height: 50px;
+
+  text-align: center;
+}
+.title_second h2{
+  width: 280px;
+  height: 39px;
+}
+.title h1 {
+  font-size: 26px;
+  width: 730px;
+  height: 45px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  line-height: 40px;
+  font-family: inherit;
+  color: #0080FF;
+  font-family: "Roboto",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.body .hang2{
+  width: 730px;
+  height: 170px;
+  margin-top: 20px;
+  background-color: #FFF;
+  margin-left: 170px;
+}
+/* .body .hang1{
+  width: 730px;
+  height: 198.66px;
+  background-color: red;
+  margin-left: 170px;
+  margin-top: 2px;
+} */
+.hang2{
+    overflow: hidden;
+    border-bottom: 1px dotted #DDD;
+    padding: 20px 0;
+    margin: 0;
+    float: left;
+    clear: none;
+  }
+.item {
+    position: relative;
+    background: #FFF;
+    overflow: hidden;
+    width: 730px;
+    height: 157.66px;
+
+}
+.anh{
+  float: left;
+}
+.infomation{
+  width: 63%;
+  float: right;
+  text-align: justify;
+}
+.infomation a{
+  font-size: 18px;
+  color: #08c;
+  text-decoration: none;
+}
+.post-title{
+  font-family: "Roboto",Helvetica Neue,Helvetica,Arial,sans-serif;
+  width: 459.89px;
+  height: 58px;
+  margin-top: -20px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+.post-title h2{
+  margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.post-date{
+  color: #666;
+
+}
