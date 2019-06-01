@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- <link rel="stylesheet" href="trangchu.css"> -->
+    <link rel="stylesheet" href="thongtinchung.css">
+    <!-- <link rel="stylesheet" href="footer.css"> -->
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css.map">
+      <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+      <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css.map">
+      <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+      <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css.map">
+      <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css"> -->
+  <script src="jquery/jquery-3.4.1.min.js"></script>
+
+
+        <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"> -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
+  </head>
+  <body>
+    <div class="header">
+    <div class="header_top">
+    <div class="content">
+    <ul class="list-inline">
+    <li><i class="fa fa-phone text-white"></i><i style="background-color: red;">&nbsp;</i> <a class="text-white" href="#">(028) 372 52002</a></li>
+    <li><i class="fa fa-envelope-o text-white" style = "margin-left: 20px;"><i> </i></i> <a class="text-white" href="mailto:info@uit.edu.vn">info@uit.edu.vn</a></li>
+
+     <li id = "menu_nav" style="margin-left: 280px;"><a href="https://tuyensinh.uit.edu.vn" target="_blank">Tuyển sinh</a></li>
+     <li id = "menu_nav"><a href="http://thuvien.uit.edu.vn" rel="nofollow" target="_blank">Thư viện</a></li>
+     <li id = "menu_nav"><a href="http://mail.uit.edu.vn/" rel="nofollow" target="_blank">Webmail CB</a></li>
+     <li id = "menu_nav"><a href="http://mail.gm.uit.edu.vn/" rel="nofollow" target="_blank">Webmail SV</a></li>
+     <li id = "menu_nav"><a href="https://tchc.uit.edu.vn/thong-bao/lich-cong-tac-tuan.html" rel="nofollow" target="_blank">Lịch công tác</a></li>
+     <li id = "menu_nav"><a class="fa fa-facebook fb-btn" href="https://www.facebook.com/UIT.Fanpage" target="_blank"> </a></li>
+     <li id = "menu_nav"><a class="fa fa-youtube yt-btn" href="https://www.youtube.com/user/uitvietnam" target="_blank"> </a></li>
+     </ul>
+      </div>
+      </div>
+          <div class="row">
+            <div class="header-section span12">
+              <div id="logo" class="site-logo"> <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" rel="home"> <img src="https://www.uit.edu.vn/sites/vi/files/banner.png" alt="Trường Đại học Công nghệ Thông tin" role="presentation" /> </a></div>
+                      <!-- /#logo -->
+                  <div id="site" class="hide">
+                <div id="name"><a href="https://www.uit.edu.vn/"></a></div>
+
+              </div>
+            </div>
+          </div>
+                      <!-- /#name-and-slogan -->
+            <div id="header-content" class="row-fluid header-content">
+            <div id="block-search-form" class="clearfix block block-search" role="search">
+          <div class="content">
+          <form class="search-form" role="search" action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+        <div class="container-inline">
+        <label class="" for="" style="">Từ khoá tìm kiếm </label>
+       <input title="" class="" placeholder="Tìm kiếm nội dung..." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+      <div class="form-actions form-wrapper" id="edit-actions"></div>
+      <input class="btn-search form-submit" alt="Tìm kiếm" type="image" id="edit-submit" name="submit" src="https://www.uit.edu.vn/sites/all/themes/open_framework/images/searchbutton.png" /></div><input class="custom-search-selector custom-search-types" type="hidden" name="custom_search_types" value="c-baiviet" />
+      <input type="hidden" name="form_build_id" value="" />
+      <input type="hidden" name="form_id" value="search_block_form" />
+    </div>
+      </div>
+    </form>
+  </div>
+       <!-- /.region -->
+                      <!-- /#header-content -->
+                  <!-- /#site-login -->
+
+    <div class="wrapper">
+    <nav class="menu" >
+        <ul class="clearfix">
+            <li >
+              <a href="#" style="margin-left: 130px;">Trang chủ  <span class="caret">&#9660;</span></a>
+              <ul class="sub-menu" style="left:130px;width:100%;">
+                <h2>Đăng nhập</h2>
+                <label for="edit_name">
+                  Tên người dùng
+                  <span class="form-required" title="Trường dữ liệu này là bắt buộc.">*</span>
+                </label><br>
+                  <input type="text" name="username" placeholder="" size="25" maxlength="60">
+                  <div class="description">Dùng tài khoản chứng thực</div>
+
+                  <label for="edit_name">
+                    Mật khẩu
+                    <span class="form-required" title="Trường dữ liệu này là bắt buộc.">*</span>
+                  </label><br>
+                  <input type="password" name="password" placeholder="" size="25" maxlength="60">
+                  <div class="description">Mật khẩu chứng thực</div>
+
+              </ul>
+            </li>
+            <li>
+                <a href="#">Tin Tức <span class="arrow">&#9660;</span></a>
+
+                <ul class="sub-menu">
+                  <a href="#" style="font-weight: bold; font-size: 15px;text-align: center"><i></i>
+                  <h3 style="color: black;">  Thông tin chung</h3>
+                  <span class="caret"></span>
+                  <span class="mega-caption">Thông tin - Thông báo chung</span>
+                </a>
+                    <li><a href="#">Món ăn miền Bắc</a></li>
+                    <li><a href="#">Món ăn miền Trung</a></li>
+                    <li><a href="#">Món ăn miền Nam</a></li>
+                    <li><a href="#">Ẩm thực đường phố</a></li>
+                </ul>
+            </li>
+            <li>
+              <a href="#">Giới thiệu  <span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                  <li><a href="#">Món ăn miền Bắc</a></li>
+                  <li><a href="#">Món ăn miền Trung</a></li>
+                  <li><a href="#">Món ăn miền Nam</a></li>
+                  <li><a href="#">Ẩm thực đường phố</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Tuyển sinh <span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                  <li><a href="#">Món ăn miền Bắc</a></li>
+                  <li><a href="#">Món ăn miền Trung</a></li>
+                  <li><a href="#">Món ăn miền Nam</a></li>
+                  <li><a href="#">Ẩm thực đường phố</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Đào tạo <span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                  <li><a href="#">Món ăn miền Bắc</a></li>
+                  <li><a href="#">Món ăn miền Trung</a></li>
+                  <li><a href="#">Món ăn miền Nam</a></li>
+                  <li><a href="#">Ẩm thực đường phố</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Nghiên cứu <span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                  <li><a href="#">Món ăn miền Bắc</a></li>
+                  <li><a href="#">Món ăn miền Trung</a></li>
+                  <li><a href="#">Món ăn miền Nam</a></li>
+                  <li><a href="#">Ẩm thực đường phố</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Các đơn vị <span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                  <li><a href="#">Món ăn miền Bắc</a></li>
+                  <li><a href="#">Món ăn miền Trung</a></li>
+                  <li><a href="#">Món ăn miền Nam</a></li>
+                  <li><a href="#">Ẩm thực đường phố</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Tra cứu <span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                  <li><a href="#">Món ăn miền Bắc</a></li>
+                  <li><a href="#">Món ăn miền Trung</a></li>
+                  <li><a href="#">Món ăn miền Nam</a></li>
+                  <li><a href="#">Ẩm thực đường phố</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Liên kết <span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                  <li><a href="#">Món ăn miền Bắc</a></li>
+                  <li><a href="#">Món ăn miền Trung</a></li>
+                  <li><a href="#">Món ăn miền Nam</a></li>
+                  <li><a href="#">Ẩm thực đường phố</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Tuyển dụng <span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                  <li><a href="#">Món ăn miền Bắc</a></li>
+                  <li><a href="#">Món ăn miền Trung</a></li>
+                  <li><a href="#">Món ăn miền Nam</a></li>
+                  <li><a href="#">Ẩm thực đường phố</a></li>
+              </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="menu-nav">
+  <div id ="nav">
+    <span>
+      <a href="https://www.uit.edu.vn/" >Trang chủ</a>
+    </span>
+    <span>
+      <span class="delimiter">»</span>
+    </span>
+    <span>
+      <span class="inline even last" typeof="v:Breadcrumb">Thông báo chung</span>
+    </span>
+  </div>
+
+</div>
+<div class="noidung">
+<div class="content_body">
+  <div class="title" >
+    <h1 >Thông Báo Chung</h1>
+  </div>
+  <div class="body" >
+    <div class ="hang2" style="margin-top: 20px;">
+      <div class="item" >
+        <div class ="anh">
+          <img src="image/ts.png" alt="anh thong bao 1" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+              <a href="https://www.uit.edu.vn/danh-sach-de-cu-tham-gia-hoi-dong-giao-su-co-so-cua-truong-dai-hoc-cong-nghe-thong-tin-nam-2019">
+                Danh sách đề cử tham gia Hội đồng Giáo sư Cơ sở của trường Đại học...
+              </a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+            Căn cứ Điều 12 của Quyết định 37/2018/QĐ-TTg ngày 31/08/2018 của Thủ tướng Chính phủ về việc Ban hành quy định
+            tiêu chuẩn, thủ tục xét công nhận đạt tiêu chuẩn và bổ nhiệm chức danh giáo sư, phó giáo...
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+              21-05-2019
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="hang2">
+      <div class="item">
+        <div class ="anh">
+
+          <img src="image/tb.png" alt="anh thong bao 1" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+              <a href="https://www.uit.edu.vn/ke-hoach-chuc-ngay-phap-luat-nuoc-cong-hoa-xa-hoi-chu-nghia-viet-nam-nam-2018">
+                Kế hoạch tổ chức “Ngày Pháp luật nước Cộng hòa xã hội chủ nghĩa Việt...</a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+            1. Mục đích
+            Hưởng ứng Ngày Pháp luật Việt Nam 09/11/2018.
+            Nâng cao ý thức trách nhiệm và tăng cường hiểu biết pháp luật của công chức, viên chức, người lao động và người học trong toàn Trường.
+            Thông...
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+              17-10-2018
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="hang2">
+      <div class="item">
+        <div class ="anh">
+          <img src="image/tb.png" alt="Thư ngỏ " title="" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+              <a href="https://www.uit.edu.vn/thong-bao-chuc-hoi-thao-gioi-thieu-ve-nghien-cuu-khoa-hoc-cho-sinh-vien-tai-truong-dh-cntt">
+                Thông báo tổ chức Hội thảo giới thiệu về nghiên cứu khoa học cho sinh...</a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+          Thực hiện kế hoạch triển khai Đề án “ Mô hình giáo dục 4.0 trên nền tảng áp dụng CDIO hiện đại tại ĐHQG-HCM,
+          giai đoạn 2018-2022 ” (Đề án Giáo dục 4.0) tại trường Đại học Công nghệ Thông tin,...
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+              7-10-2018
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="hang2">
+      <div class="item">
+        <div class ="anh">
+          <img src="image/thu_ngo.jpg" alt="Thư ngỏ " title="" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+              <a href="https://www.uit.edu.vn/thu-ngo-cuu-sinh-vien-tham-gia-khao-sat-ve-tinh-hinh-viec-lam-nam-2018">
+                Thư ngỏ Cựu sinh viên tham gia khảo sát về tình hình việc làm năm 2018
+              </a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+            Thân gửi Anh/Chị cựu sinh viên! Trường ĐH Công nghệ Thông, ĐHQG-HCM kính gửi đến Anh/Chị Thư ngỏ tham gia hoạt
+             động khảo sát về tình hình việc làm năm 2018 (Xem file đính kèm). Anh/Chị vui lòng thực...
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+              21-09-2018
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="hang2">
+      <div class="item">
+        <div class ="anh">
+          <img src="image/tuyensinh_sdh.png" alt=" " title="" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+              <a href="https://www.uit.edu.vn/thong-bao-ve-viec-tham-du-chuong-trinh-tu-van-tuyen-sinh-sau-dai-hoc">
+                Thông báo về việc tham dự chương trình tư vấn tuyển sinh sau đại học
+              </a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+          Thân mời các bạn thí sinh quan tâm đến tham dự buổi tư vấn tuyển sinh trình độ sau đại học do Đại học Quốc gia
+           TP.HCM tổ chức. Gian hàng của Trường Đại học Công nghệ Thông tin sẽ giúp các bạn hiểu rõ...
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+              15-08-2018
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="hang2">
+      <div class="item">
+        <div class ="anh">
+          <img src="image/ts.png" alt=" " title="" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+            <a href="https://www.uit.edu.vn/thong-bao-xet-chon-nha-cung-cap-dich-vu-ve-sinh-nha-b">
+              Thông báo xét chọn nhà cung cấp dịch vụ vệ sinh nhà B
+            </a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+          Trường Đại học Công nghệ Thông tin - ĐHQG-HCM kính mời các tổ chức trong và ngoài Trường có đủ năng lực,
+          kinh nghiệm và có điều kiện tham dự chào giá cạnh tranh dịch vụ vệ sinh cho tòa nhà B và khuôn...
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+              13-08-2018
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="hang2">
+      <div class="item">
+        <div class ="anh">
+          <img src="image/tiep.jpg" alt=" " title="" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+              <a href="https://www.uit.edu.vn/thong-bao-vv-hop-tac-dau-tu-nha-phuc-vu-sinh-vien">
+                Thông báo v/v hợp tác đầu tư Nhà Phục vụ Sinh viên
+              </a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+            Kính gửi: Quý đối tác Trường Đại học Công nghệ Thông tin -DHQG.HCM có hạng mục công trình
+            "Nhà phục vụ sinh viên" thuộc Tiểu Dự án Đầu tư Xây dựng Trường Đại học Công nghệ Thông tin (QG-HCM-04) cần...
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+              18-07-2018
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="hang2">
+      <div class="item">
+        <div class ="anh">
+          <img src="image/tuyendung1.jpg" alt=" " title="" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+              <a href="https://www.uit.edu.vn/thong-bao-tuyen-dung-dot-3-nam-2018">Thông báo tuyển dụng (đợt 3, năm 2018)
+              </a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+          Trường ĐHCNTT hiện có nhu cầu tuyển dụng 29 chỉ tiêu cho các vị trí giảng viên, nghiên cứu viên,
+           chuyên viên và lao động phổ thông. Thông tin chi tiết cho từng vị trí vui lòng xem tại: https://www....
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+               05-07-2018
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="hang2">
+      <div class="item">
+        <div class ="anh">
+          <img src="image/tuyendung1.jpg" alt=" " title="" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+              <a href="https://www.uit.edu.vn/thong-bao-tuyen-dung-dot-1-nam-2018">Thông báo tuyển dụng (đợt 1, năm 2018)
+              </a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+            Trường ĐHCNTT hiện có nhu cầu tuyển dụng 40 chỉ tiêu cho các vị trí giảng viên, nghiên cứu viên,
+            chuyên viên và lao động phổ thông. Thông tin chi tiết cho từng vị trí vui lòng xem tại: https://www....
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+              20-04-2018
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="hang2">
+      <div class="item">
+        <div class ="anh">
+          <img src="image/tb.png" alt=" " title="" style="width: 254.19px; height: 157.66px;align: center;">
+        </div>
+        <div class ="infomation">
+          <div class="post-title">
+            <h2>
+              <a href="https://www.uit.edu.vn/thong-bao-keu-goi-dau-tu-va-cung-cap-dich-vu-tai-nha-phuc-vu-sinh-vien">
+                Thông báo kêu gọi đầu tư và cung cấp dịch vụ tại Nhà phục vụ sinh viên
+              </a>
+            </h2>
+          </div>
+          <div class="post-desc" >
+            Kính gửi quý Thầy Cô, Công đoàn Trường trân trong thông báo đến quý Thầy Cô thông báo 01/TB-CĐCNTT ngày
+            15/03/2018 về việc Kêu gọi đầu tư và cung cấp dịch vụ tại Nhà phục vụ sinh viên (Chi tiết tại...
+          </div>
+          <div class="post-date">
+            <i class="fa fa-calendar">
+              16-03-2018
+            </i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="body2">
+    <div class="title_second" >
+      <h2>Bài viết nổi bật
+        <hr align="center" color="#08c" width = "100%" height = "0.5px" />
+      </h2>
+
+
+    </div>
+    <div class="tt">
+    <div class="thongtin_thongbao" style="margin-top: 10px;">
+      <div id="anhthongbao" >
+        <img src="image/hoinghi.jpg" alt="anh hoi nghi">
+        <div class="md" >
+      <div id="month">
+        10.2018
+      </div>
+      <div id="day">
+        17
+      </div>
+    </div>
+    </div>
+      <div id ="title">
+        <a href="https://www.uit.edu.vn/ke-hoach-chuc-ngay-phap-luat-nuoc-cong-hoa-xa-hoi-chu-nghia-viet-nam-nam-2018">Kế hoạch tổ chức “Ngày Pháp luật nước Cộng hòa xã hội chủ nghĩa...</a>
+      </div>
+      <div id="ndbadiv">
+        <p>1. Mục đích Hưởng ứng Ngày Pháp luật Việt Nam 09/11/2018. Nâng cao ý thức trách nhiệm và tăng cường hiểu biết pháp luật của công chức, viên chức,...</p>
+
+      <div class="more_link">
+        <div id = "button">
+        <a href="https://www.uit.edu.vn/thong-bao-chung">Xem thêm -></a>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="tt">
+  <div class="thongtin_thongbao" style="margin-top: 10px;" >
+    <div id="anhthongbao" >
+      <img src="image/viec_lam.jpg" alt="anh viec lam">
+      <div class="md" >
+    <div id="month">
+      10.2018
+    </div>
+    <div id="day">
+      17
+    </div>
+  </div>
+  </div>
+    <div id ="title">
+      <a href="https://www.uit.edu.vn/ke-hoach-chuc-ngay-phap-luat-nuoc-cong-hoa-xa-hoi-chu-nghia-viet-nam-nam-2018">Kế hoạch tổ chức “Ngày Pháp luật nước Cộng hòa xã hội chủ nghĩa...</a>
+    </div>
+    <div id="ndbadiv">
+      <p>1. Mục đích Hưởng ứng Ngày Pháp luật Việt Nam 09/11/2018. Nâng cao ý thức trách nhiệm và tăng cường hiểu biết pháp luật của công chức, viên chức,...</p>
+
+    <div class="more_link">
+      <div id = "button">
+      <a href="https://www.uit.edu.vn/thong-bao-chung">Xem thêm -></a>
+    </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="tt">
+<div class="thongtin_thongbao" style="margin-top: 10px;">
+  <div id="anhthongbao" >
+    <img src="image/viec_lam1.jpg" alt="anh thong bao1">
+    <div class="md" >
+  <div id="month">
+    10.2018
+  </div>
+  <div id="day">
+    17
+  </div>
+</div>
+</div>
+  <div id ="title">
+    <a href="https://www.uit.edu.vn/ke-hoach-chuc-ngay-phap-luat-nuoc-cong-hoa-xa-hoi-chu-nghia-viet-nam-nam-2018">Kế hoạch tổ chức “Ngày Pháp luật nước Cộng hòa xã hội chủ nghĩa...</a>
+  </div>
+  <div id="ndbadiv">
+    <p>1. Mục đích Hưởng ứng Ngày Pháp luật Việt Nam 09/11/2018. Nâng cao ý thức trách nhiệm và tăng cường hiểu biết pháp luật của công chức, viên chức,...</p>
+
+  <div class="more_link">
+    <div id = "button">
+    <a href="https://www.uit.edu.vn/thong-bao-chung">Xem thêm -></a>
+  </div>
+
+  </div>
+</div>
+</div>
+</div>
+<div class="tt">
+<div class="thongtin_thongbao" style="margin-top: 10px;">
+  <div id="anhthongbao" >
+    <img src="image/viec_lam2.jpg" alt="anh thong bao1">
+    <div class="md" >
+  <div id="month">
+    10.2018
+  </div>
+  <div id="day">
+    17
+  </div>
+</div>
+</div>
+  <div id ="title">
+    <a href="https://www.uit.edu.vn/ke-hoach-chuc-ngay-phap-luat-nuoc-cong-hoa-xa-hoi-chu-nghia-viet-nam-nam-2018">Kế hoạch tổ chức “Ngày Pháp luật nước Cộng hòa xã hội chủ nghĩa...</a>
+  </div>
+  <div id="ndbadiv">
+    <p>1. Mục đích Hưởng ứng Ngày Pháp luật Việt Nam 09/11/2018. Nâng cao ý thức trách nhiệm và tăng cường hiểu biết pháp luật của công chức, viên chức,...</p>
+
+  <div class="more_link">
+    <div id = "button">
+    <a href="https://www.uit.edu.vn/thong-bao-chung">Xem thêm -></a>
+  </div>
+
+  </div>
+</div>
+</div>
+</div>
+<div class="tt">
+<div class="thongtin_thongbao" style="margin-top: 10px;">
+  <div id="anhthongbao" >
+    <img src="image/viec_lam3.jpg" alt="anh thong bao1">
+    <div class="md" >
+  <div id="month">
+    10.2018
+  </div>
+  <div id="day">
+    17
+  </div>
+</div>
+</div>
+  <div id ="title">
+    <a href="https://www.uit.edu.vn/ke-hoach-chuc-ngay-phap-luat-nuoc-cong-hoa-xa-hoi-chu-nghia-viet-nam-nam-2018">Kế hoạch tổ chức “Ngày Pháp luật nước Cộng hòa xã hội chủ nghĩa...</a>
+  </div>
+  <div id="ndbadiv">
+    <p>1. Mục đích Hưởng ứng Ngày Pháp luật Việt Nam 09/11/2018. Nâng cao ý thức trách nhiệm và tăng cường hiểu biết pháp luật của công chức, viên chức,...</p>
+
+  <div class="more_link">
+    <div id = "button">
+    <a href="https://www.uit.edu.vn/thong-bao-chung">Xem thêm -></a>
+  </div>
+
+  </div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+<div id="footer" class="clearfix site-footer" role="footerinfo">
+  <div class="container">
+    <div id="footer-content" class="row-fluid footer-content"> <div class="region region-footer clearfix">
+  <div id="block-panels-mini-footer" class="clearfix block block-panels-mini">       <div class="content"> <div class="panel-flexible panels-flexible-column_3_40_30_30 clearfix" id="mini-panel-footer">
+<div class="panel-flexible-inside panels-flexible-column_3_40_30_30-inside">
+<div class="panels-flexible-region panels-flexible-region-column_3_40_30_30-left_side panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-column_3_40_30_30-left_side-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-block pane-block-24 pane-block info-footer">
+
+
+
+  <div class="pane-content">
+    <p><img alt="Trường đại học Công nghệ Thông tin" src="https://www.uit.edu.vn/sites/vi/files/banner.png" width="454" height="104"></p>
+<p><strong>SỨ MẠNG</strong></p>
+<p class="rtejustify">- Trường Đại học Công nghệ Thông tin là một trung tâm đào tạo đại học, sau đại học cung cấp nguồn nhân lực chất lượng cao, nhằm đáp ứng nhu cầu của thị trường lao động và phục vụ cộng đồng.</p>
+<p class="rtejustify">- Trường Đại học Công nghệ Thông tin là một trung tâm hàng đầu về nghiên cứu khoa học và chuyển giao công nghệ về công nghệ thông tin – truyền thông và các lĩnh vực liên quan.</p>
+<p><strong>TẦM NHÌN</strong></p>
+<p class="rtejustify">Trường Đại học Công nghệ Thông tin trở thành trường đại học uy tín về công nghệ thông tin – truyền thông và các lĩnh vực liên quan trong khu vực Châu Á.</p>
+  </div>
+
+
+  </div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-column_3_40_30_30-center_side ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-column_3_40_30_30-center_side-inside">
+<div class="panel-pane pane-block pane-block-25 pane-block links">
+
+        <div class="pane-title">
+      Liên kết nhanh    </div>
+
+
+  <div class="pane-content">
+    <div class="line">&nbsp;</div>
+<ul><li><a href="https://tuyensinh.uit.edu.vn/" rel="nofollow" target="_blank">Trang tuyển sinh</a></li>
+<li><a href="https://student.uit.edu.vn/" rel="nofollow" target="_blank">Đào tạo đại học</a></li>
+<li><a href="https://sdh.uit.edu.vn/" rel="nofollow" target="_blank">Đào tạo Sau đại học</a></li>
+<li><a href="https://oep.uit.edu.vn/" rel="nofollow" target="_blank">Văn phòng Các chương trình đặc biệt</a></li>
+<li><a href="https://ctsv.uit.edu.vn/" rel="nofollow" target="_blank">Phòng Công tác sinh viên</a></li>
+<li><a href="http://thuvien.uit.edu.vn/" rel="nofollow" target="_blank">Thư viện</a></li>
+<li><a href="https://forum.uit.edu.vn/" rel="nofollow" target="_blank">Forum</a></li>
+</ul>  </div>
+
+
+  </div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-column_3_40_30_30-right_side panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-column_3_40_30_30-right_side-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-block pane-block-26 pane-block address">
+
+        <div class="pane-title">
+      Liên hệ    </div>
+
+
+  <div class="pane-content">
+    <div class="line">&nbsp;</div>
+<ul><li><i class="fa fa-map-marker"><i>&nbsp;</i></i><strong>ĐỊA CHỈ</strong>Khu phố 6, P.Linh Trung, Q.Thủ Đức, Tp.Hồ Chí Minh.</li>
+<li><i class="fa fa-phone"><i>&nbsp;</i></i><strong>ĐIỆN THOẠI</strong>(028) 372 52002</li>
+<li><i class="fa fa-fax"><i>&nbsp;</i></i><strong>FAX</strong>(028) 372 52148</li>
+<li><i class="fa fa-envelope-o text-white"><i>&nbsp;</i></i><strong>EMAIL</strong><a href="mailto:info@uit.edu.vn">info@uit.edu.vn</a></li>
+</ul>  </div>
+
+
+  </div>
+  </div>
+</div>
+</div>
+</div>
+ </div>
+</div>
+</div>
+ <!-- /.region -->
+ </div>
+  </div>
+</div>
+<!-- /#footer -->
+
+<!-- copyright -->
+<div id="copyright" class="clearfix site-copyright" role="copyright">
+  <div class="container">
+    <div id="copyright-content" class="row-fluid copyright-content"> <div class="region region-copyright clearfix">
+  <div id="block-block-27" class="clearfix block block-block span8 text-copyright">       <div class="content"> <p>© Copyright Trường Đại học Công nghệ Thông tin</p>
+ </div>
+</div><div id="block-block-28" class="clearfix block block-block span4 social">       <div class="content"> <ul class="social-icon"><li><a class="fa fa-facebook fb-btn" href="https://www.facebook.com/UIT.Fanpage" target="_blank"> </a></li>
+<li><a class="fa fa-twitter tw-btn" href="#" target="_blank"> </a></li>
+<li><a class="fa fa-youtube yt-btn" href="https://www.youtube.com/user/uitvietnam" target="_blank"> </a></li>
+<li><a class="fa fa-google-plus gplus-btn" href="https://plus.google.com/u/1/101358157507107625930" target="_blank"> </a></li>
+</ul> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+  </div>
+</div>
+  </body>
+</html>
