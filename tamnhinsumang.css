@@ -162,7 +162,7 @@ margin: 3px 3px;
 }
 .body{
   width: 740px;
-  height: 7350px;
+  height: 1900px;
   background-color: #FFF;
   float: left;
   margin-left: 160px;
@@ -203,7 +203,7 @@ margin: 3px 3px;
 .content_body{
   width: 910px;
   background-color: #FFF;
-  height: 7400px;
+  height: 1970px;
 
 
 }
@@ -273,17 +273,20 @@ border-right: 5px solid #cccccc;
 border-radius: 5px;
 border-left: 0.5px solid #cccccc;
 border-top: 0.5px solid #cccccc;
-height: 352.88px;
+height: 360px;
 background-color: #FFF;
+}
+.tt{
+  width: 280px;
+  height: 370px;
+
 }
 #anhthongbao img{
   width: 278px;
   height:170px;
 }
 em {
-
     font-style: italic;
-
 }
 p {
     display: block;
@@ -292,18 +295,10 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-h2{
-  font-size: 22px;
-  line-height: 1.3em;
-  margin: 20px 0 8px;
-  font-weight: 400;
-  width: 730px;
-  height: 28px;
+
+.rtecenter {
+    text-align: center;
 }
-strong {
-    width: 130.17px;
-    height: 27px;
-    font-weight: 600;
-    font-family: "Roboto",Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 14px;
+p {
+    margin: 4px 0 12px;
 }
